@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reductor-react/static/css/main.80b3bcf6.chunk.css",
-    "main.js": "/reductor-react/static/js/main.c358a956.chunk.js",
-    "main.js.map": "/reductor-react/static/js/main.c358a956.chunk.js.map",
+    "main.css": "/reductor-react/static/css/main.5e32c121.chunk.css",
+    "main.js": "/reductor-react/static/js/main.1c37c64c.chunk.js",
+    "main.js.map": "/reductor-react/static/js/main.1c37c64c.chunk.js.map",
     "runtime~main.js": "/reductor-react/static/js/runtime~main.d4bb9dd2.js",
     "runtime~main.js.map": "/reductor-react/static/js/runtime~main.d4bb9dd2.js.map",
     "static/js/2.df4e7d2d.chunk.js": "/reductor-react/static/js/2.df4e7d2d.chunk.js",
     "static/js/2.df4e7d2d.chunk.js.map": "/reductor-react/static/js/2.df4e7d2d.chunk.js.map",
     "index.html": "/reductor-react/index.html",
-    "precache-manifest.a7247975112113b8c4c6be18ab75697c.js": "/reductor-react/precache-manifest.a7247975112113b8c4c6be18ab75697c.js",
+    "precache-manifest.8e627e03b156012691676e1e7796e478.js": "/reductor-react/precache-manifest.8e627e03b156012691676e1e7796e478.js",
     "service-worker.js": "/reductor-react/service-worker.js",
-    "static/css/main.80b3bcf6.chunk.css.map": "/reductor-react/static/css/main.80b3bcf6.chunk.css.map"
+    "static/css/main.5e32c121.chunk.css.map": "/reductor-react/static/css/main.5e32c121.chunk.css.map"
   }
 }
