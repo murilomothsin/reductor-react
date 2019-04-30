@@ -16,8 +16,9 @@ class Home extends Component {
   }
 
   submit = (e) => {
+    const BASE_URL = process.env.NODE_ENV === "production" ? 'https://reductor-app.herokuapp.com' : 'http://localhost:3000'
     e.preventDefault();
-    axios.post('http://localhost:3000/shorts', {short: this.state})
+    axios.post(`${BASE_URL}/shorts`, {short: this.state})
       .then((response) => {
         this.setState({...this.state, result: response.data.url});
       })

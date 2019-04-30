@@ -13,7 +13,8 @@ class Hot extends Component {
   }
 
   getShortList = () => {
-    axios.get('http://localhost:3000/shorts')
+    const BASE_URL = process.env.NODE_ENV === "production" ? 'https://reductor-app.herokuapp.com' : 'http://localhost:3000'
+    axios.get(`${BASE_URL}/shorts`)
       .then((response) => {
         this.setState({...this.state, shorts: response.data.shorts, root_url: response.data.root_url});
       })
@@ -49,6 +50,8 @@ class Hot extends Component {
             {this.shortsList()}
           </tbody>
         </table>
+
+        <button onClick={this.getShortList}>Refresh</button>
       </div>
     );
   }
