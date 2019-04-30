@@ -11,7 +11,7 @@ function About() {
       </p>
 
       <p>
-        Code available at <a href="https://www.linkedin.com/in/murilomothsin/" target="_blank" rel="noopener noreferrer" >Github</a>
+        Code available at <a href="https://github.com/murilomothsin/reductor-react/" target="_blank" rel="noopener noreferrer" >Github</a>
       </p>
     </div>
   );

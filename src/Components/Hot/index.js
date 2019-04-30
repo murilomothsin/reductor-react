@@ -26,7 +26,7 @@ class Hot extends Component {
     this.state.shorts.map((short) => (
       <tr key={short.id}>
         <td>{short.click_count}</td>
-        <td>{short.page_title}</td>
+        <td className="tooltip"><span className="tooltiptext">{short.page_title}</span>{short.page_title.slice(0, 37)}</td>
         <td><a href={`${this.state.root_url}${short.url_digest}`} target="_blank" rel="noopener noreferrer">{short.url}</a></td>
       </tr>
     ))
